@@ -7,7 +7,9 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
+//定义扫描的包，加载控制器
 @ComponentScan("com.*")
+//启用Spring Web MVC
 @EnableWebMvc
 public class WebConfig {
 	/***
